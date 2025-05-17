@@ -1,0 +1,31 @@
+.ToDoApp{
+  width:52%;
+  margin:0 auto;
+  background: #ECEDF6;
+  height:auto;
+  padding:20px
+}
+.todoList{width: 100%;
+    position: relative;
+    left: -40px;
+  }
+.addTask{width: calc(100% - 192px);}
+  .editList{width:65%;
+  margin: 0 auto;
+  }
+  .wrapBtn{
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    top: 10px;
+  }
+  .deleteSel{margin-left: 0px;}
+  button{color:#fff;font-weight: 800;}
+
+
+@media(max-width:991px){
+  .editList {
+    width: 100%;
+    margin: 0 auto;
+}
+}
